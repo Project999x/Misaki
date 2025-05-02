@@ -7,7 +7,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "0")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7715320294:AAHE_Wo7g_V_9Yf3IB3cvjquI9Ar-NkIirE")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "21672202"))
@@ -47,7 +47,7 @@ SHORT_MSG = "<b>⌯ ʏᴏᴜʀ ʟɪɴᴋ ɪꜱ ʀᴇᴀᴅʏ, ᴋɪɴᴅʟʏ ᴄ
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʜɪ ᴛʜᴇʀᴇ... {first}! 💥\n\nɪ ᴀᴍ ᴀ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ...!\nɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴘʀɪᴠᴀᴛᴇ ꜰɪʟᴇꜱ ᴛʜʀᴏᴜɢʜ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ʟɪɴᴋ....!\n\nᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href=https://t.me/Hentai_Cinema>𝐇𝐞𝐧𝐭𝐚𝐢 𝐂𝐢𝐧𝐞𝐦𝐚</a></b>")
 try:
     ADMINS=[1418213560]
-    for x in (os.environ.get("ADMINS", "1418213560,7607147920").split()):
+    for x in (os.environ.get("ADMINS", "1418213560").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -76,7 +76,7 @@ DEL_TIMER = int(os.environ.get("DEL_TIMER", "1800"))
 DEL_MSG = "<b>This File is deleting automatically in {time}. Forward in your Saved Messages..!</b>"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(1418213560)
+ADMINS.append(7035751998)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
